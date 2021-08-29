@@ -25,7 +25,7 @@ SECRET_KEY = 'afzc@l0amhd@2#5ua34od4$&!6_y7d&=8)2_2ad+0x!en_=bdg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["djangoautodeploy"]
 
 
 # Application definition

@@ -33,8 +33,6 @@ jobs:
           python manage.py test
 
   deploy:
-    - name: Checkout code # checking out code.
-       - uses: actions/checkout@v2
     name: Deploy to Heroku
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
